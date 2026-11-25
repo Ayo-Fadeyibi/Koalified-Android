@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:background="@color/k_screen_background"
+    android:background="@color/screen_background"
   android:fillViewport="true">
 
   <LinearLayout
@@ -27,7 +27,7 @@
           android:backgroundTint="@color/brand_mint"
         android:text="Import timetable"
         android:textAllCaps="false"
-          android:textColor="@color/k_on_mint"
+          android:textColor="@color/text_on_mint"
           android:textStyle="bold" />
 
       <Button
@@ -38,14 +38,14 @@
           android:backgroundTint="@color/card_surface"
         android:text="Add a class manually     ›"
         android:textAllCaps="false"
-        android:textColor="@color/k_text_primary" />
+          android:textColor="@color/text_primary" />
 
       <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="Import your timetable file or link to get your classes in one place."
-        android:textColor="@color/k_text_secondary"
+          android:textColor="@color/text_secondary"
         android:textSize="13sp" />
 
       <TextView
