@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="launcher_background">#BFF2DD</color>
     <color name="brand_mint">#45DEA4</color>
 
     <color name="white">#FFFFFFFF</color>
-    <!--    <color name="canvas">#FFF9F0</color>-->
-    <!--    <color name="brand_mint">#BFF2DD</color>-->
     <color name="teal_fill">#BDEFE9</color>
     <color name="lavender_fill">#DDD5FF</color>
     <color name="mint_fill">#BFF2DD</color>
-
 
     <color name="screen_background">#FFF7EF</color>
     <color name="card_surface">#FFFFFFFF</color>
@@ -18,8 +16,8 @@
     <color name="ink_border">#242322</color>
     <color name="ink_shadow">#242322</color>
 
-    <color name="text_on_mint">#183D33</color>
-    <color name="text_primary">#242322</color>
+    <color name="text_on_mint">#081411</color>
+    <color name="text_primary">#070707</color>
     <color name="text_secondary">#656777</color>
 
 

@@ -1,5 +1,5 @@
 <resources>
-  <!-- Base application theme. -->
+    <!-- Base application theme. -->
     <style name="Theme.KoalifiedAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/ink</item>
         <item name="colorPrimaryVariant">@color/ink_secondary</item>
@@ -12,27 +12,21 @@
         <item name="android:navigationBarDividerColor">@android:color/transparent</item>
         <item name="android:windowBackground">@color/screen_background</item>
         <item name="android:statusBarColor">@color/screen_background</item>
-        <!--Light Mode -->
+        <!--Night Mode -->
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">@color/screen_background</item>
         <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarColor">@color/screen_background</item>
         <!--Font-->
         <item name="android:fontFamily">@font/fredoka</item>
-        <item name="fontFamily">@font/fredoka</item>
     </style>
 
-  <style name="Theme.KoalifiedAndroid.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
-    <!-- Radius of the outer bound of widgets to make the rounded corners -->
-    <item name="appWidgetRadius">16dp</item>
-    <!--
-        Radius of the inner view's bound of widgets to make the rounded corners.
-        It needs to be 8dp or less than the value of appWidgetRadius
-        -->
-    <item name="appWidgetInnerRadius">8dp</item>
-  </style>
-
-  <style name="Theme.KoalifiedAndroid.AppWidgetContainer" parent="Theme.KoalifiedAndroid.AppWidgetContainerParent">
-    <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
-    <item name="appWidgetPadding">16dp</item>
-  </style>
+    <style name="Theme.KoalifiedAndroid.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+            Radius of the inner view's bound of widgets to make the rounded corners.
+            It needs to be 8dp or less than the value of appWidgetRadius
+            -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
 </resources>
