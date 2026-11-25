@@ -15,7 +15,7 @@
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:text="Today"
-          android:textColor="@color/k_text_primary"
+          android:textColor="@color/text_primary"
           android:textSize="26sp"
           android:textStyle="bold" />
 
@@ -25,14 +25,14 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="4dp"
           android:text="Tuesday, 20 October"
-          android:textColor="@color/k_text_secondary"
+          android:textColor="@color/text_secondary"
           android:textSize="13sp" />
 
     <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="18dp"
-      android:background="@drawable/k_neo_card"
+        android:background="@drawable/neo_card"
         android:orientation="vertical"
         android:padding="15dp">
 
@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TODAY"
-            android:textColor="@color/k_text_secondary"
+            android:textColor="@color/text_secondary"
             android:textSize="10sp"
             android:textStyle="bold" />
 
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="7dp"
             android:text="Your day starts here."
-            android:textColor="@color/k_text_primary"
+            android:textColor="@color/text_primary"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="Import your timetable to see classes, deadlines and reminders."
-            android:textColor="@color/k_text_secondary"
+            android:textColor="@color/text_secondary"
             android:textSize="13sp" />
 
       <Button
@@ -66,10 +66,10 @@
         android:layout_width="match_parent"
         android:layout_height="46dp"
         android:layout_marginTop="12dp"
-        android:backgroundTint="@color/k_brand_mint"
+          android:backgroundTint="@color/brand_mint"
         android:text="Import timetable"
         android:textAllCaps="false"
-          android:textColor="@color/k_on_mint"
+          android:textColor="@color/text_on_mint"
           android:textStyle="bold" />
 
       <Button
@@ -77,10 +77,10 @@
         android:layout_width="match_parent"
         android:layout_height="42dp"
         android:layout_marginTop="5dp"
-        android:backgroundTint="@color/k_card_surface"
+          android:backgroundTint="@color/card_surface"
         android:text="Add a class manually     ›"
         android:textAllCaps="false"
-        android:textColor="@color/k_text_primary" />
+          android:textColor="@color/text_primary" />
     </LinearLayout>
 
       <TextView
@@ -88,7 +88,7 @@
           android:layout_height="wrap_content"
           android:layout_marginTop="18dp"
           android:text="Due soon"
-          android:textColor="@color/k_text_primary"
+          android:textColor="@color/text_primary"
           android:textSize="18sp"
           android:textStyle="bold" />
 
@@ -96,7 +96,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="8dp"
-      android:background="@drawable/k_neo_card"
+        android:background="@drawable/neo_card"
         android:orientation="vertical"
         android:padding="13dp">
 
@@ -104,7 +104,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nothing due yet"
-        android:textColor="@color/k_text_primary"
+          android:textColor="@color/text_primary"
           android:textSize="14sp"
           android:textStyle="bold" />
 
@@ -113,7 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Assessment deadlines will show here."
-        android:textColor="@color/k_text_secondary"
+          android:textColor="@color/text_secondary"
         android:textSize="12sp" />
     </LinearLayout>
 

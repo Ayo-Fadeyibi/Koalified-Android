@@ -80,7 +80,7 @@ public class HomeScreen extends AppCompatActivity {
 
         item.setBackgroundResource(
                 selected
-                        ? R.drawable.k_mint_pill
+                        ? R.drawable.mint_pill
                         : android.R.color.transparent
         );
     }

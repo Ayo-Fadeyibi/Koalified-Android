@@ -4,16 +4,19 @@
         <item name="colorPrimary">@color/ink</item>
         <item name="colorPrimaryVariant">@color/ink_secondary</item>
         <item name="colorOnPrimary">@color/white</item>
+        <!--Brand colour. -->
         <item name="colorSecondary">@color/brand_mint</item>
         <item name="colorSecondaryVariant">@color/teal_fill</item>
         <item name="colorOnSecondary">@color/ink</item>
-
-        <item name="android:windowBackground">@color/k_screen_background</item>
-        <item name="android:statusBarColor">@color/k_screen_background</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">@color/k_screen_background</item>
-        <item name="android:windowLightNavigationBar">true</item>
+        <!-- Status bar colour. -->
         <item name="android:navigationBarDividerColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+        <item name="android:statusBarColor">@color/screen_background</item>
+        <!--Light Mode -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/screen_background</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <!--Font-->
         <item name="android:fontFamily">@font/fredoka</item>
         <item name="fontFamily">@font/fredoka</item>
     </style>

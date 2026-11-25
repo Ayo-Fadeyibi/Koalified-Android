@@ -13,15 +13,13 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 /**
- * Android entry point corresponding to the iOS KoalifiedApp. Shows a short first-run splash, then
+ * Shows a short first-run splash, then
  * hands off to the app's home screen.
  */
 public class KoalifiedRoot extends Activity {
-
     private static final String PREFERENCES_NAME = "koalified_preferences";
     private static final String KEY_HAS_ONBOARDED = "hasOnboarded";
     private static final long SPLASH_DURATION_MS = 700L;
-
     private final Handler handler = new Handler(Looper.getMainLooper());
     private final Runnable openHome = () -> {
         if (isFinishing() || isDestroyed()) {

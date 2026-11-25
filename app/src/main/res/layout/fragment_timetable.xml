@@ -8,34 +8,34 @@
   <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="18dp"
-    android:orientation="vertical">
+      android:orientation="vertical"
+      android:padding="18dp">
 
     <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="18dp"
-      android:padding="15dp"
-      android:background="@drawable/k_neo_card"
-      android:orientation="vertical">
+        android:background="@drawable/neo_card"
+        android:orientation="vertical"
+        android:padding="15dp">
 
       <Button
         android:id="@+id/action_import_timetable"
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="46dp"
         android:layout_marginTop="11dp"
-        android:backgroundTint="@color/k_brand_mint"
+          android:backgroundTint="@color/brand_mint"
         android:text="Import timetable"
         android:textAllCaps="false"
-        android:textColor="@color/k_on_mint" />
+          android:textColor="@color/k_on_mint"
+          android:textStyle="bold" />
 
       <Button
         android:id="@+id/action_add_timetable_class"
         android:layout_width="match_parent"
         android:layout_height="42dp"
         android:layout_marginTop="5dp"
-        android:backgroundTint="@color/k_card_surface"
+          android:backgroundTint="@color/card_surface"
         android:text="Add a class manually     ›"
         android:textAllCaps="false"
         android:textColor="@color/k_text_primary" />
@@ -49,55 +49,55 @@
         android:textSize="13sp" />
 
       <TextView
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="YOUR SEMESTER STARTS HERE"
-        android:textColor="@color/k_text_secondary"
-        android:textSize="10sp" />
+          android:textColor="@color/text_secondary"
+          android:textSize="10sp"
+          android:textStyle="bold" />
 
       <TextView
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
         android:text="Bring in your timetable."
-        android:textColor="@color/k_text_primary"
-        android:textSize="19sp" />
+          android:textColor="@color/text_primary"
+          android:textSize="19sp"
+          android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_marginTop="12dp"
-      android:padding="13dp"
-      android:background="@drawable/k_neo_card"
-      android:orientation="vertical">
+        android:background="@drawable/neo_card"
+        android:orientation="vertical"
+        android:padding="13dp">
 
       <TextView
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Check it before you keep it"
-        android:textColor="@color/k_text_primary"
-        android:textSize="14sp" />
+          android:textColor="@color/text_primary"
+          android:textSize="14sp"
+          android:textStyle="bold" />
 
       <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Review the courses, classes and assessment data found in your import."
-        android:textColor="@color/k_text_secondary"
+          android:textColor="@color/text_secondary"
         android:textSize="12sp" />
     </LinearLayout>
 
     <TextView
-      android:textStyle="bold"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Timetable"
-      android:textColor="@color/k_text_primary"
-      android:textSize="26sp" />
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
   </LinearLayout>
 </ScrollView>
