@@ -10,17 +10,17 @@ public class Course {
 
     public String courseCode;
     public String title;
-    // Store values such as "S1", "S2", or "S3".
+    // Store values such as "S1", "S2", or "Summer".
     public String term;
     public int year;
     public String color;
 
     public Course(
-        String courseCode,
-        String title,
-        String term,
-        int year,
-        String color
+            String courseCode,
+            String title,
+            String term,
+            int year,
+            String color
     ) {
         this.courseCode = courseCode;
         this.title = title;

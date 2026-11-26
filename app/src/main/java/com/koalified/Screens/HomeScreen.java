@@ -12,6 +12,11 @@ import com.koalified.Fragments.TimetableFragment;
 import com.koalified.Fragments.TodayFragment;
 import com.koalified.R;
 
+/**
+ * Displays all tabs and functions as Android Fragments. This is to preserve the navigation bar
+ * instance and allow for easier navigation between fragments. Each Fragment is essentially a
+ * compact Activity class that's run through this screen.
+ */
 public class HomeScreen extends AppCompatActivity {
 
     private static final String SELECTED_TAB = "selected_tab";
