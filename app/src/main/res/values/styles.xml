@@ -1,6 +1,7 @@
 <resources>
-    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:fontFamily">sans</item>
+
+    <style name="Style.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/fredoka</item>
         <item name="android:colorAccent">#20222B</item>
         <item name="android:statusBarColor">#FFF9F0</item>
         <item name="android:navigationBarColor">#FFF9F0</item>
