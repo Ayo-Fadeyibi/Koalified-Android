@@ -3,47 +3,46 @@ package com.koalified.Models;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
+import com.koalified.Components.Enums.Semester;
+
 @Entity(tableName = "courses")
 public class Course {
     @PrimaryKey(autoGenerate = true)
     public long id;
 
     public String courseCode;
-    public String title;
-    // Store values such as "S1", "S2", or "Summer".
-    public String term;
+    public String courseTitle;
+
+    public Semester semester;
     public int year;
-    public String color;
+
+    public String staffName;
 
     public Course(
             String courseCode,
-            String title,
-            String term,
-            int year,
-            String color
+            String courseTitle,
+            Semester semester,
+            int year
     ) {
         this.courseCode = courseCode;
-        this.title = title;
-        this.term = term;
+        this.courseTitle = courseTitle;
+        this.semester = semester;
         this.year = year;
-        this.color = color;
     }
 
+//    public static Course courseFromCode(String courseCode) {
+//        if (courseCode == null) {
+//            return null;
+//        }
+//        for (Course course : courses) {
+//            if (course.courseCode.equals(courseCode)) {
+//                return course;
+//            }
+//        }
+//        return null;
+//    }
+
     public String getSemesterLabel() {
-        String termLabel;
-        switch (term) {
-            case "S1":
-                termLabel = "Semester 1";
-                break;
-            case "S2":
-                termLabel = "Semester 2";
-                break;
-            case "S3":
-                termLabel = "Summer";
-                break;
-            default:
-                termLabel = term;
-        }
-        return termLabel + ", " + year;
+        return semester.name() + ", " + year;
     }
 }

@@ -13,8 +13,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 /**
- * Shows a short first-run splash, then
- * hands off to the app's home screen.
+ * Shows a short first-run splash, then hands off to the app's home screen.
  */
 public class KoalifiedRoot extends Activity {
     private static final String PREFERENCES_NAME = "koalified_preferences";
@@ -44,6 +43,7 @@ public class KoalifiedRoot extends Activity {
         } else {
             showSplash();
             handler.postDelayed(openHome, SPLASH_DURATION_MS);
+            // TODO: Begin onboarding handoff from here
         }
     }
 

@@ -1,6 +1,59 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
     <option name="AUTODETECT_INDENTS" value="false" />
+    <JavaCodeStyleSettings>
+      <option name="DELETE_UNUSED_MODULE_IMPORTS" value="true" />
+      <option name="IMPORT_LAYOUT_TABLE">
+        <value>
+          <package name="android" withSubpackages="true" static="true" />
+          <package name="androidx" withSubpackages="true" static="true" />
+          <package name="com" withSubpackages="true" static="true" />
+          <package name="junit" withSubpackages="true" static="true" />
+          <package name="net" withSubpackages="true" static="true" />
+          <package name="org" withSubpackages="true" static="true" />
+          <package name="java" withSubpackages="true" static="true" />
+          <package name="javax" withSubpackages="true" static="true" />
+          <package name="" withSubpackages="true" static="true" />
+          <emptyLine />
+          <package name="android" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="androidx" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="com" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="junit" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="net" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="org" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="java" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="javax" withSubpackages="true" static="false" />
+          <emptyLine />
+          <package name="" withSubpackages="true" static="false" />
+          <emptyLine />
+        </value>
+      </option>
+      <option name="JD_ALIGN_PARAM_COMMENTS" value="false" />
+      <option name="JD_KEEP_INVALID_TAGS" value="false" />
+      <option name="JD_PARAM_DESCRIPTION_ON_NEW_LINE" value="true" />
+    </JavaCodeStyleSettings>
+    <codeStyleSettings language="JAVA">
+      <option name="WRAP_COMMENTS" value="true" />
+      <arrangement>
+        <groups>
+          <group>
+            <type>GETTERS_AND_SETTERS</type>
+            <order>KEEP</order>
+          </group>
+          <group>
+            <type>DEPENDENT_METHODS</type>
+            <order>BREADTH_FIRST</order>
+          </group>
+        </groups>
+      </arrangement>
+    </codeStyleSettings>
     <codeStyleSettings language="XML">
       <option name="FORCE_REARRANGE_MODE" value="1" />
       <indentOptions>

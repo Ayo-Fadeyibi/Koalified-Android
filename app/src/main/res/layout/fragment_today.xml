@@ -35,6 +35,7 @@
                 android:layout_height="wrap_content"
                 android:format12Hour="EEEE, dd, MMM, yyyy"
                 android:format24Hour="EEEE, dd, MMM, yyyy"
+                android:textColor="@color/text_secondary"
                 android:textSize="16sp" />
 
             <LinearLayout
@@ -80,7 +81,7 @@
                 <Button
                     android:id="@+id/action_today_add_class"
                     android:layout_width="match_parent"
-                    android:layout_height="46dp"
+                    android:layout_height="48dp"
                     android:layout_marginTop="5dp"
                     android:backgroundTint="@color/card_surface"
                     android:text="Add a class manually"
