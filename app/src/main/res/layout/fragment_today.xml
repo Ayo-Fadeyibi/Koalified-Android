@@ -43,8 +43,8 @@
                 android:layout_marginTop="18dp"
                 android:background="@drawable/neo_card"
                 android:orientation="vertical"
-                android:padding="15dp"
-                android:visibility="gone">
+                android:padding="15dp">
+                <!--                android:visibility="gone">-->
                 <!--TODO: have visibility be conditional based on whether or not the user has imported their timetable-->
 
                 <TextView
